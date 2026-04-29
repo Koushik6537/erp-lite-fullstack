@@ -1,0 +1,44 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #cbd5f5;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  background-color: #334155;
+}
+
+.active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.logout-btn {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #334155;
+}

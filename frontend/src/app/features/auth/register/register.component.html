@@ -1,0 +1,29 @@
+<div class="register-wrapper">
+
+  <div class="register-card">
+    <h2>Create Account</h2>
+
+    <div class="form-group">
+      <input [(ngModel)]="user.name" placeholder="Name" />
+      <input [(ngModel)]="user.email" placeholder="Email" />
+      <input [(ngModel)]="user.password" placeholder="Password" type="password" />
+    </div>
+
+    <div class="form-group">
+      <select [(ngModel)]="user.role">
+        <option value="" disabled selected>Select Role</option>
+        <option value="Admin">Admin</option>
+        <option value="Employee">Employee</option>
+      </select>
+    </div>
+
+    <button (click)="register()">Register</button>
+
+  </div>
+
+</div>
+
+<p class="login-link">
+  Already have an account?
+  <span (click)="goToLogin()">Login</span>
+</p>
