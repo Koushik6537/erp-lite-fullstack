@@ -95,21 +95,9 @@ Email: test@gmail.com
 Password: test@1234
 ```
 
----
-
-## 📸 Screenshots
-
-
-```
-frontend/src/assets/screenshots/
-```
-
----
-
 ## 🚀 Future Enhancements
 
 * 📈 Dashboard charts & analytics
-* 🔔 Toast notifications (UI improvements)
 * 🌐 Deployment (AWS / Vercel / Render)
 * 📱 Improved mobile responsiveness
 
